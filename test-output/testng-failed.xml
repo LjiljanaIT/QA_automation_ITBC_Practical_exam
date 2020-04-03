@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Final Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test: HomePage and Order(failed)">
+    <classes>
+      <class name="tests.Summer_DressesTest">
+        <methods>
+          <include name="test09_registerBack"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Summer_DressesTest -->
+    </classes>
+  </test> <!-- Test: HomePage and Order(failed) -->
+</suite> <!-- Failed suite [Final Project] -->
