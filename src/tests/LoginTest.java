@@ -40,7 +40,7 @@ public class LoginTest {
 
 	@Test
 	public void testN_LogIn() throws IOException {
-		int n = 2;
+		int n = 30;
 		for (int i = 2; i <= n + 1; i++) {
 			HomePage.signInFromHome(driver);
 			Authentication.logInData(driver, DataSetImport.readCell(i, 3), DataSetImport.readCell(i, 4));

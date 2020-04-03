@@ -36,7 +36,7 @@ public class Summer_DressesTest {
 
 	@AfterClass
 	public static void tearDown() {
-		// driver.close();
+		driver.close();
 	}
 
 	// Test if item chosen

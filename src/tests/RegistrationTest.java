@@ -46,7 +46,7 @@ public class RegistrationTest {
 	@Test
 	public void testN_register() throws IOException {
 
-		int n = 2;
+		int n = 30;
 		// for-loop starts from 2. Reason: when running suite,
 		// first user from data-set is already registered
 		// from another test class, "Summer_DressesTest.

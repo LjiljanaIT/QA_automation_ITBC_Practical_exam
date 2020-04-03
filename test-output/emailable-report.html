@@ -8,27 +8,48 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Final Project</th></tr>
-<tr><td><a href="#t0">Test: HomePage and Order</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">113,721</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test: Register and Login n Users</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">140,084</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">9</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">253,805</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">84,412</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Final Project</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test: HomePage and Order &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.Summer_DressesTest</td><td><a href="#m0">test05_logInBack</a></td><td rowspan="1">1585930908221</td><td rowspan="1">8028</td></tr><tr><th colspan="4">Test: HomePage and Order &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.HomePageTest</td><td><a href="#m1">test01WomenBtn</a></td><td rowspan="1">1585930812807</td><td rowspan="1">11921</td></tr><tr class="passedeven"><td><a href="#m2">test02DressBtn</a></td><td rowspan="1">1585930824735</td><td rowspan="1">6680</td></tr><tr class="passedeven"><td><a href="#m3">test03SameURL</a></td><td rowspan="1">1585930831418</td><td rowspan="1">12908</td></tr><tr class="passedodd"><td rowspan="4">tests.Summer_DressesTest</td><td><a href="#m4">test01_clickFirst</a></td><td rowspan="1">1585930853861</td><td rowspan="1">5163</td></tr><tr class="passedodd"><td><a href="#m5">test02_Order</a></td><td rowspan="1">1585930859027</td><td rowspan="1">3518</td></tr><tr class="passedodd"><td><a href="#m6">test03_Values</a></td><td rowspan="1">1585930862547</td><td rowspan="1">8296</td></tr><tr class="passedodd"><td><a href="#m7">test04_registration</a></td><td rowspan="1">1585930870844</td><td rowspan="1">37374</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test: Register and Login n Users &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m8">testN_LogIn</a></td><td rowspan="1">1585931024040</td><td rowspan="1">32224</td></tr><tr class="passedodd"><td rowspan="1">tests.RegistrationTest</td><td><a href="#m9">testN_register</a></td><td rowspan="1">1585930929678</td><td rowspan="1">80765</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.Summer_DressesTest</td><td><a href="#m0">test05_logInBack</a></td><td rowspan="1">1585933780350</td><td rowspan="1">8827</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">tests.Summer_DressesTest</td><td><a href="#m1">test01_clickFirst</a></td><td rowspan="1">1585933715114</td><td rowspan="1">8147</td></tr><tr class="passedeven"><td><a href="#m2">test02_Order</a></td><td rowspan="1">1585933723270</td><td rowspan="1">4417</td></tr><tr class="passedeven"><td><a href="#m3">test03_Values</a></td><td rowspan="1">1585933727690</td><td rowspan="1">10399</td></tr><tr class="passedeven"><td><a href="#m4">test04_registration</a></td><td rowspan="1">1585933738091</td><td rowspan="1">42255</td></tr></tbody>
 </table>
-<h2>Test: HomePage and Order</h2><h3 id="m0">tests.Summer_DressesTest#test05_logInBack</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+<h2>Default test</h2><h3 id="m0">tests.Summer_DressesTest#test05_logInBack</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
 	expected [2] but found [(empty)]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
 	at tests.Summer_DressesTest.test05_logInBack(Summer_DressesTest.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.HomePageTest#test01WomenBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.HomePageTest#test02DressBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.HomePageTest#test03SameURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.Summer_DressesTest#test01_clickFirst</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.Summer_DressesTest#test02_Order</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.Summer_DressesTest#test03_Values</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.Summer_DressesTest#test04_registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test: Register and Login n Users</h2><h3 id="m8">tests.LoginTest#testN_LogIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">tests.RegistrationTest#testN_register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.Summer_DressesTest#test01_clickFirst</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.Summer_DressesTest#test02_Order</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.Summer_DressesTest#test03_Values</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.Summer_DressesTest#test04_registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

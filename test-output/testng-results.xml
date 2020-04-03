@@ -1,55 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="14" passed="9" failed="1" skipped="0">
+<testng-results ignored="4" total="9" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-03T18:20:02 CEST" name="Final Project" finished-at="2020-04-03T18:24:16 CEST" duration-ms="253883">
+  <suite started-at="2020-04-03T19:08:24 CEST" name="Default suite" finished-at="2020-04-03T19:09:49 CEST" duration-ms="84412">
     <groups>
     </groups>
-    <test started-at="2020-04-03T18:20:02 CEST" name="Test: HomePage and Order" finished-at="2020-04-03T18:21:56 CEST" duration-ms="113721">
-      <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@1e802ef9]" started-at="2020-04-03T18:20:02 CEST" name="setUp" finished-at="2020-04-03T18:20:12 CEST" duration-ms="10232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test01WomenBtn()[pri:0, instance:tests.HomePageTest@1e802ef9]" started-at="2020-04-03T18:20:12 CEST" name="test01WomenBtn" finished-at="2020-04-03T18:20:24 CEST" duration-ms="11921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test01WomenBtn -->
-        <test-method signature="test02DressBtn()[pri:0, instance:tests.HomePageTest@1e802ef9]" started-at="2020-04-03T18:20:24 CEST" name="test02DressBtn" finished-at="2020-04-03T18:20:31 CEST" duration-ms="6680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test02DressBtn -->
-        <test-method signature="test03SameURL()[pri:0, instance:tests.HomePageTest@1e802ef9]" started-at="2020-04-03T18:20:31 CEST" name="test03SameURL" finished-at="2020-04-03T18:20:44 CEST" duration-ms="12908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test03SameURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@1e802ef9]" started-at="2020-04-03T18:20:44 CEST" name="tearDown" finished-at="2020-04-03T18:20:44 CEST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.HomePageTest -->
+    <test started-at="2020-04-03T19:08:24 CEST" name="Default test" finished-at="2020-04-03T19:09:49 CEST" duration-ms="84412">
       <class name="tests.Summer_DressesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:20:44 CEST" name="setUp" finished-at="2020-04-03T18:20:53 CEST" duration-ms="9440" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:08:24 CEST" name="setUp" finished-at="2020-04-03T19:08:35 CEST" duration-ms="10296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test01_clickFirst()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:20:53 CEST" name="test01_clickFirst" finished-at="2020-04-03T18:20:59 CEST" duration-ms="5163" status="PASS">
+        <test-method signature="test01_clickFirst()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:08:35 CEST" name="test01_clickFirst" finished-at="2020-04-03T19:08:43 CEST" duration-ms="8147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01_clickFirst -->
-        <test-method signature="test02_Order()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:20:59 CEST" name="test02_Order" finished-at="2020-04-03T18:21:02 CEST" duration-ms="3518" status="PASS">
+        <test-method signature="test02_Order()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:08:43 CEST" name="test02_Order" finished-at="2020-04-03T19:08:47 CEST" duration-ms="4417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02_Order -->
-        <test-method signature="test03_Values()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:21:02 CEST" name="test03_Values" finished-at="2020-04-03T18:21:10 CEST" duration-ms="8296" status="PASS">
+        <test-method signature="test03_Values()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:08:47 CEST" name="test03_Values" finished-at="2020-04-03T19:08:58 CEST" duration-ms="10399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test03_Values -->
-        <test-method signature="test04_registration()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:21:10 CEST" name="test04_registration" finished-at="2020-04-03T18:21:48 CEST" duration-ms="37374" status="PASS">
+        <test-method signature="test04_registration()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:08:58 CEST" name="test04_registration" finished-at="2020-04-03T19:09:40 CEST" duration-ms="42255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test04_registration -->
-        <test-method signature="test05_logInBack()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:21:48 CEST" name="test05_logInBack" finished-at="2020-04-03T18:21:56 CEST" duration-ms="8028" status="FAIL">
+        <test-method signature="test05_logInBack()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:09:40 CEST" name="test05_logInBack" finished-at="2020-04-03T19:09:49 CEST" duration-ms="8827" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -95,41 +73,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test05_logInBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Summer_DressesTest@2b6faea6]" started-at="2020-04-03T18:21:56 CEST" name="tearDown" finished-at="2020-04-03T18:21:56 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Summer_DressesTest@75329a49]" started-at="2020-04-03T19:09:49 CEST" name="tearDown" finished-at="2020-04-03T19:09:49 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.Summer_DressesTest -->
-    </test> <!-- Test: HomePage and Order -->
-    <test started-at="2020-04-03T18:21:56 CEST" name="Test: Register and Login n Users" finished-at="2020-04-03T18:24:16 CEST" duration-ms="140084">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2020-04-03T18:23:34 CEST" name="setUp" finished-at="2020-04-03T18:23:44 CEST" duration-ms="9441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testN_LogIn()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2020-04-03T18:23:44 CEST" name="testN_LogIn" finished-at="2020-04-03T18:24:16 CEST" duration-ms="32224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testN_LogIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2020-04-03T18:24:16 CEST" name="tearDown" finished-at="2020-04-03T18:24:16 CEST" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
-      <class name="tests.RegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegistrationTest@bef2d72]" started-at="2020-04-03T18:21:56 CEST" name="setUp" finished-at="2020-04-03T18:22:09 CEST" duration-ms="13345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testN_register()[pri:0, instance:tests.RegistrationTest@bef2d72]" started-at="2020-04-03T18:22:09 CEST" name="testN_register" finished-at="2020-04-03T18:23:30 CEST" duration-ms="80765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testN_register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegistrationTest@bef2d72]" started-at="2020-04-03T18:23:30 CEST" name="tearDown" finished-at="2020-04-03T18:23:34 CEST" duration-ms="4152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.RegistrationTest -->
-    </test> <!-- Test: Register and Login n Users -->
-  </suite> <!-- Final Project -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

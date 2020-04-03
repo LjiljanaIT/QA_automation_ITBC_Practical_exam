@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.Summer_DressesTest">
         <methods>
-          <include name="test09_registerBack"/>
           <include name="tearDown"/>
+          <include name="test05_logInBack"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.Summer_DressesTest -->
