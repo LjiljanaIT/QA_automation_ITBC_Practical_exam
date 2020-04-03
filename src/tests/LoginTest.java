@@ -28,26 +28,25 @@ public class LoginTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
-	
+
 	@AfterClass
 	public static void tearDown() {
 		driver.close();
 	}
-	
-	@Test //Log in of n users
+
+	// Log in of n users, registered by Registration class
+	// Assert all registered users can log back in
+	// Test should be run after Registration test, with same number of users.
+
+	@Test
 	public void testN_LogIn() throws IOException {
-		int n=4;
-		for (int i = 2; i <= n+1; i++) {
+		int n = 2;
+		for (int i = 2; i <= n + 1; i++) {
 			HomePage.signInFromHome(driver);
 			Authentication.logInData(driver, DataSetImport.readCell(i, 3), DataSetImport.readCell(i, 4));
 			sa.assertTrue(Authentication.clickSignIn(driver));
 			driver.findElement(By.xpath("//div[@class='header_user_info']//a[@title='Log me out']")).click();
-	}
-		
-
-	
-		
+		}
 		sa.assertAll();
 	}
-
 }

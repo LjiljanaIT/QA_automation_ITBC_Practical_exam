@@ -27,15 +27,16 @@ public class HomePageTest {
 		driver.close();
 	}
 	
-	@Test
+	//Tests if "Summer dresses" link opens from "WOMAN" menu
+	@Test 
 	public void test01WomenBtn() {
 		driver.navigate().to(HomePage.HOME_URL);
 		HomePage.ClickWomenSummer(driver);
 		String current = driver.getCurrentUrl();
 		Assert.assertEquals(current, SUMMER_DRESSES_URL);
-		
 	}
 
+	//Tests if "Summer dresses" link opens from "DRESSES" menu
 	@Test
 	public void test02DressBtn() {
 		driver.navigate().to(HomePage.HOME_URL);
@@ -44,6 +45,7 @@ public class HomePageTest {
 		Assert.assertEquals(current, SUMMER_DRESSES_URL);
 	}
 	
+	//Tests if the links in test01 i test02 lead to same page.
 	@Test
 	public void test03SameURL() {
 		driver.navigate().to(HomePage.HOME_URL);

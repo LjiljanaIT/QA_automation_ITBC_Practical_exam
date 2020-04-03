@@ -20,7 +20,7 @@ import pageObjects.Registration;
 
 public class RegistrationTest {
 	private static WebDriver driver;
-	private static SoftAssert sa=new SoftAssert();
+	private static SoftAssert sa = new SoftAssert();
 
 	@BeforeClass
 	public static void setUp() {
@@ -36,17 +36,22 @@ public class RegistrationTest {
 		driver.close();
 	}
 
-	
-	@Test // Registration of n users, from Home page
+	// Registration of n new users, from Home page
+	// Using data-set provided in excel table (attached)
+	// Assert all users registered.
+	// Note1 for teachers: new data provided in table, you can run it...:)
+	// Note2 for teachers: please set number of users you want to register :)
+	@Test
 	public void testN_register() throws IOException {
-		
-		int n = 4;
-		
-		for (int r = 2; r <= n+1; r++) {
-			
+
+		int n = 2;
+		// for-loops starts from 2. Reason: when running suite first user is registered
+		// in another test.
+		for (int r = 2; r <= n + 1; r++) {
+
 			HomePage.signInFromHome(driver);
 			Authentication.createAccount(driver, DataSetImport.readCell(r, 3));
-						
+
 			Registration.setMrMrs(driver, DataSetImport.readCell(r, 0));
 
 			Registration.setFirstName(driver, DataSetImport.readCell(r, 1));

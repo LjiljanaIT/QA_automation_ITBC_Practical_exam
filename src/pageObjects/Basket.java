@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Basket {
-	
-	
+
+	// Gets color and size of item in cart
 	public static String getColorSize(WebDriver driver) {
 		WebElement we = driver
 				.findElement(By.xpath("//tr[@id='product_5_24_0_0']/td[@class='cart_description']/small[2]/a"));
@@ -16,12 +16,14 @@ public class Basket {
 
 	}
 
+	// Gets quantity item in cart
 	public static String getQty(WebDriver driver) {
 		WebElement we = driver.findElement(By.xpath("//tr[@id='product_5_24_0_0']/td[5]/input[2]"));
 		return we.getAttribute("value");
 
 	}
 
+	// Gets title item in cart
 	public static String getTitle(WebDriver driver) {
 		WebElement we = driver.findElement(
 				By.xpath("//tr[@id='product_5_24_0_0']/td[@class='cart_description']/p[@class='product-name']/a"));
@@ -29,6 +31,8 @@ public class Basket {
 
 	}
 
+	// Locate "proceed" button by scrolling window and click
+	// Return "true" if successfully proceeded
 	public static boolean proceeded(WebDriver driver) {
 		waitFOR(3000);
 		JavascriptExecutor jse = (JavascriptExecutor) driver;

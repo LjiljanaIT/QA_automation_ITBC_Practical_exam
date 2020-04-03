@@ -8,6 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Registration {
 
+	/*
+	 * Class Registration has a separate method for each user-data. I would
+	 * reconsider this approach next time... Maybe one method can hold them all, but
+	 * then, one can not test separate field for bugs... Method names are
+	 * self-explanatory, no comments needed.
+	 */
 	public static void setMrMrs(WebDriver driver, String gender) {
 		driver.findElement(By.id("id_gender" + gender)).click();
 	}
@@ -120,7 +126,7 @@ public class Registration {
 		return proceeded;
 
 	}
-	
+
 	public static boolean registerBtnCart(WebDriver driver) {
 		WebElement we = driver.findElement(By.id("submitAccount"));
 		we.click();
@@ -130,17 +136,14 @@ public class Registration {
 		return proceeded;
 
 	}
-	
+
 	public static boolean registerBtnHome(WebDriver driver) {
 		WebElement we = driver.findElement(By.id("submitAccount"));
 		we.click();
-		boolean proceeded = driver
-				.findElement(By.xpath("//div[@class='header_user_info']//a[@title='Log me out']"))
+		boolean proceeded = driver.findElement(By.xpath("//div[@class='header_user_info']//a[@title='Log me out']"))
 				.isDisplayed();
 		return proceeded;
 	}
-	
-	
 
 	public static void waitFOR(int msec) {
 		try {
