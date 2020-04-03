@@ -39,14 +39,17 @@ public class RegistrationTest {
 	// Registration of n new users, from Home page
 	// Using data-set provided in excel table (attached)
 	// Assert all users registered.
-	// Note1 for teachers: new data provided in table, you can run it...:)
-	// Note2 for teachers: please set number of users you want to register :)
+	// Note1 for those running a test: new data provided in table, you can run
+	// it...:)
+	// Note2 for those running a test: please set number of users you want to
+	// register :)
 	@Test
 	public void testN_register() throws IOException {
 
 		int n = 2;
-		// for-loops starts from 2. Reason: when running suite first user is registered
-		// in another test.
+		// for-loop starts from 2. Reason: when running suite,
+		// first user from data-set is already registered
+		// from another test class, "Summer_DressesTest.
 		for (int r = 2; r <= n + 1; r++) {
 
 			HomePage.signInFromHome(driver);
