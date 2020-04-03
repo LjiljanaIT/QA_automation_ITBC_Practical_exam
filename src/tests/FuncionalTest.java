@@ -25,6 +25,8 @@ public class FuncionalTest {
 	// driver.manage().deleteAllCookies();
 	// }
 
+	//new comment
+	
 	@AfterClass
 	public static void tearDown() {
 		driver.close();
